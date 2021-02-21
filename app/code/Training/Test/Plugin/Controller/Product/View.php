@@ -21,7 +21,7 @@ class View
         $this->redirectFactory = $redirectFactory;
     }
 
-    public function aroundExecute(
+    /*public function aroundExecute(
         \Magento\Catalog\Controller\Product\View $subject,
         \Closure $proceed
     )
@@ -30,5 +30,5 @@ class View
             return $this->redirectFactory->create()->setPath('customer/account/login');
         }
         return $proceed ();
-    }
+    }*/
 }
