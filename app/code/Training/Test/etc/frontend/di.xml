@@ -11,7 +11,7 @@
         <plugin name="training_test" type="Training\Test\Plugin\Controller\Product\View"/>
     </type>
     <!--<preference for="Magento\Framework\App\FrontControllerInterface" type="Training\Test\App\FrontController"/>-->
-    <type name="Magento\Framework\App\Router\NoRouteHandlerList">
+    <!--<type name="Magento\Framework\App\Router\NoRouteHandlerList">
         <arguments>
             <argument name="handlerClassesList" xsi:type="array">
                 <item name="default" xsi:type="array">
@@ -20,5 +20,5 @@
                 </item>
             </argument>
         </arguments>
-    </type>
+    </type>-->
 </config>
